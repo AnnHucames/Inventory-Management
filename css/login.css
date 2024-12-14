@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E3F2FD; /* Light blue background */
+    color: #333; /* Darker text for contrast */
+}
+
+.box {
+    background-color: #FFFFFF; /* White background for the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 470px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+.bg-img {
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    padding: 15px 0;
+    font-size: 2em;
+    color: #1976D2; /* A softer blue */
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.user-input,
+.pass-input {
+    position: relative;
+}
+
+.user-input i,
+.pass-input i {
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    padding: 12px;
+    color: #B0BEC5; /* Lighter icon color */
+    transition: 0.3s;
+}
+
+.login-input {
+    color: #333; /* Darker input text color */
+    border-radius: 2px;
+    width: 300px;
+    height: 44px;
+    border: 1px solid #B0BEC5; /* Light border */
+    padding: 15px 20px;
+    background-color: #F0F4C3; /* Light yellow background */
+    margin-bottom: 24px;
+}
+
+.login-input:focus {
+    outline: none;
+    border: 2px solid #76FF03; /* Bright green focus border */
+}
+
+.login-btn {
+    font-size: 16px;
+    font-weight: 700;
+    width: 240px;
+    border-radius: 44px;
+    padding: 12px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+span {
+    color: #1976D2; /* Change to a softer blue */
+}
+
+.new-account a {
+    color: #2196F3; /* Softer blue for links */
+    font-weight: 400;
+}
+
+.f-pass a {
+    color: #FFEB3B; /* Light yellow for forgot password */
+    text-decoration: none;
+}
+
+#hide-1 {
+    display: none;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    position: relative;
+    width: 78px;
+    height: auto;
+}

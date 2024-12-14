@@ -1,0 +1,199 @@
+body {
+    background-color: #E3F2FD; /* Light blue background for the body */
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #E3F2FD; /* Match with body background */
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #ccc; /* Lighter gray for fake images */
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #FFFFFF; /* White background for cards */
+    padding: 20px;
+    margin-top: 20px;
+    color: #333; /* Darker text for readability */
+    border: 2px solid #00A2FF; /* Light border */
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.card-green {
+    background: #B2E3D3; /* Lighter green */
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-yellow {
+    background: #EBF9B1; /* Light yellow */
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-blue {
+    background: #D1C4E9; /* Lighter blue */
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-red {
+    background: #FFABAB; /* Lighter red */
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #4C90A5; /* Match footer with body */
+    margin-top: 20px;
+    color: white;
+}
+
+span {
+    color: #282828;
+}
+
+.container_table {
+    width: 1024px;
+    padding: 2em;
+}
+
+.bold-blue {
+    font-weight: bold;
+    color: #0277BD;
+}
+
+h1, h2, h4, th {
+    color: rgb(0, 162, 255);
+}
+
+td {
+    color: rgb(172, 42, 248);
+}
+
+.white-text {
+    color: floralwhite;
+}
+
+/* Padding utilities */
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+/* Modal styles */
+.modal-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #31B0D5; /* Keeping the modal background */
+    color: white;
+}
+
+.modal-header {
+    background: #31B0D5; /* Keeping modal header background */
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-footer {
+    background: #31B0D5; /* Keeping modal footer background */
+    color: #ffce00; /* Keeping footer text color */
+    border-radius: 0 0 5px 5px;
+}
+
+/* Input styles */
+.user-input {
+    position: relative;
+}
+
+.login-input {
+    color: black;
+    border-radius: 2px;
+    width: 150px;
+    height: 44px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #B2E3D3; /* Light input background */
+    margin-bottom: 24px;
+}
+
+.login-input:focus {
+    outline: none;
+    border-bottom: 2px solid #007B7F; /* Dark teal focus border */
+}
+
+.login-input:focus:invalid {
+    border-bottom: 2px solid #ff7b00; /* Orange for invalid */
+}
+
+.form-input {
+    position: relative;
+}
+
+.form-input i {
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    padding: 9px 8px;
+    color: #848484;
+    transition: 0.3s;
+}

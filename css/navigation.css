@@ -1,0 +1,80 @@
+.topnav {
+    background-color: #E3F2FD; /* Light blue background */
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #BBDEFB; /* Light hover effect */
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #E3F2FD; /* Match topnav background */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #FFCA28; /* Light yellow border */
+}
+
+li {
+    float: left;
+    border-right: 1px solid #BBDEFB; /* Light border */
+    color: #333; /* Dark text for contrast */
+}
+
+li a {
+    display: block;
+    color: #333; /* Dark text for links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #B0BEC5; /* Lighter gray on hover */
+}
+
+li:last-child, li:nth-last-child(1) {
+    border-right: none;
+    padding-right: 20px;
+    float: right;
+}
+
+.user {
+    color: rgb(25, 187, 25); /* Keep user color as is */
+}
+
+.active {
+    background-color: #81D4FA; /* Light blue for active links */
+    color: black; /* Dark text for active links */
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}

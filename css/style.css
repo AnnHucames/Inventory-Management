@@ -1,0 +1,25 @@
+body {
+    background-color: #E3F2FD; /* Lighter background color for better contrast */
+    overflow: hidden; /* Prevents scrolling */
+}
+
+.center_align {
+    text-align: center;
+    font-size: 50px;
+    color: #4C90A5; /* Changed text color to match the theme */
+    margin-top: 20px; /* Added top margin for spacing */
+    font-family: 'Roboto', sans-serif; /* Added font for consistency */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow for depth */
+}
+
+.img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.img img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Adds rounded corners to images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around images */
+}
